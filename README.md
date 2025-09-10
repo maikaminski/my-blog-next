@@ -95,6 +95,7 @@ components/
  ├── PostCard.tsx     # Post card (Server Component)
  └── LikeButton.tsx   # Like button (Client Component)
 
+```bash
 # Clone repository
 git clone https://github.com/YOUR-USERNAME/blog-personal-nextjs.git
 
