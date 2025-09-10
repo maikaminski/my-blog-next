@@ -57,7 +57,9 @@ npm run dev
 
 # Acesse em http://localhost:3000
 
-🌍 English Version
+```
+
+# 🌍 English Version
 📋 Features (EN)
 
 Homepage: Blog posts list (Server Component)
