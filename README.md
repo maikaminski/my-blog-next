@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog Pessoal Simples (Next.js App Router)
 
-## Getting Started
+Este é um projeto individual de estudo utilizando **Next.js (App Router)**.  
+O objetivo é construir um **blog pessoal minimalista** para praticar conceitos fundamentais como **Server Components, Client Components, roteamento dinâmico e layouts compartilhados**.
 
-First, run the development server:
+---
+
+## 📋 Funcionalidades (PT-BR)
+
+- **Página inicial**: Lista de posts do blog (Server Component)  
+- **Posts individuais**: Páginas dinâmicas com conteúdo completo  
+- **Página sobre**: Página estática com informações pessoais  
+- **Navegação global**: Layout compartilhado entre páginas  
+- **Botão de curtir**: Interatividade com Client Component  
+- **Design responsivo**: Mobile-first, limpo e legível  
+
+---
+
+## 🚀 Tecnologias
+
+- [Next.js 15](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) (ou outra lib de UI, se preferir)
+
+---
+
+## 📂 Estrutura de pastas
+
+app/
+├── layout.tsx # Layout global
+├── page.tsx # Página inicial
+├── about/page.tsx # Página sobre
+├── posts/[slug]/ # Página dinâmica de post
+│ └── page.tsx
+components/
+├── PostCard.tsx # Card de post (Server Component)
+└── LikeButton.tsx # Botão de curtir (Client Component)
+
+
+---
+
+## ⚙️ Como rodar localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/SEU-USUARIO/blog-pessoal-nextjs.git
+
+# Entre no diretório
+cd blog-pessoal-nextjs
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Acesse em http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 English Version
+📋 Features (EN)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Homepage: Blog posts list (Server Component)
 
-## Learn More
+Individual posts: Dynamic pages with full content
 
-To learn more about Next.js, take a look at the following resources:
+About page: Static page with personal information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Global navigation: Shared layout across pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Like button: Interactivity with Client Component
 
-## Deploy on Vercel
+Responsive design: Mobile-first, clean and readable
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🚀 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 15
+
+React
+
+TypeScript
+
+Tailwind CSS
+ (or any UI lib you prefer)
+
+ app/
+ ├── layout.tsx       # Global layout
+ ├── page.tsx         # Homepage
+ ├── about/page.tsx   # About page
+ ├── posts/[slug]/    # Dynamic post page
+ │    └── page.tsx
+components/
+ ├── PostCard.tsx     # Post card (Server Component)
+ └── LikeButton.tsx   # Like button (Client Component)
+
+# Clone repository
+git clone https://github.com/YOUR-USERNAME/blog-personal-nextjs.git
+
+# Go to project folder
+cd blog-personal-nextjs
+
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Open http://localhost:3000
+
