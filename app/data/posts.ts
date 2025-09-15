@@ -1,0 +1,36 @@
+export type post = {
+    id: number;
+    title: string;
+    content: string;
+}
+
+export const posts: post[] = [
+    {
+        id: 1,
+        title: "Como eu conheci a Duca, e como ela se tornou o amor da minha vida",
+        content: `Saída de um buraco, em meio à neve que caiu em Guarapuava/PR em 2013, magrela, zóiuda, sofrida... Esse pedacinho de amor sobrevivente, veio parar em nossa casa!
+            Sempre gostei muito de animais. Desde os considerados de estimação, como cães e gatos, até os de produção, como galinhas, vacas, porcos, e mesmo os sinantrópicos, como ratos, pombos e insetos, sempre receberam um olhar de respeito de carinho da minha parte. Toda a parte da minha vida compartilhada com a família, sempre contou com um animal de estimação, muito bem cuidados e amados, como membros da família mesmo.
+            Antes da Duca, Sly, uma vira-lata com cara de pinscher, e Belinha, uma salsicha pretinha, eram nossas companheiras. Sly nos deixou no início de 2013, com 11 anos, e 4 meses depois, Belinha foi se juntar à ela, aos 9 anos. Foi um baque horrível, as duas acompanharam minha adolescência toda e início da vida adulta... Mas como amor nunca faltou em nossa casa, poucos meses depois, adotamos a Duca e a Polenta.
+            Infelizmente, a Polenta não se adaptou em casa, tinha uma energia de 15 labradores, apesar de ser uma gordinha chatuca... Então, um tempo depois ela foi morar na chácara, onde podia correr e liberar toda a energia que tinha acumulada.
+            Depois disso, Duquinha se tornou a única rainha da casa. Com uma personalidade de uma senhora cansada de 65 anos, foi se tornando cada vez mais a paixão de nossas vidas. Calma, carinhosa, obediente, engraçada, quanto mais os anos passavam mais tínhamos certeza de que ela tava se tornando quase humana na convivência.
+            Nunca foi de brincar com bolinhas, nem de roer as coisas da casa, late muito pouco, geralmente para o carteiro, o moço que leva o gás, os coletores de resíduos, porque enfim, alguma coisa de cachorro ela tinha que ter! Hahahaha! De resto, sua rotina mesmo é comer, subir no sofá, dormir embaixo da mesa, dar bom dia na cama e já aproveitar pra tirar um cochilo por ali mesmo... Mesmo, sendo a tranquilidade em cachorro, a gente vê vida nos olhos dela. Foi uma das minhas primeiras inspirações quando comecei a desenhar... Bonito não ficou, mas não da pra dizer que não ficou fofo né?
+            Já faz 10 anos que saí de Guarapuava, e obviamente que minha mãe não deixou eu tirar a companheirinha dela de lá. Mesmo assim, cada visita que faço é como se eu nunca tivesse saído de perto dela. É uma festa quando eu chego, independente de quantas vezes eu saia de casa, e é minha companheira de sonecas no sofá, filmes, séries... é meu bom dia diário com lambeijos e carinho.
+            Parecemos ser companheiras de outras vidas, porque o olhar que lançamos uma para a outra é de puro amor e cumplicidade. Se eu estou deitada, ela está sempre comigo, no maior dengo, encaixa no meu ombro e nos sentimos seguras.
+            Minha vida seria, com certeza, muito menos doce sem a presença desse serzinho de luz. Sou muito grata por termos cruzado nossos caminhos, e eu prometo ser sempre uma companheira, como ela é pra mim. A parte mais dura da convivência com animais, é que a gente sabe que eles se vão antes que nós, mas como dizem, eles já nasceram sabendo amar, e vem para nos ensinar. Esse ano Duca completa 11 anos, se Deus quiser, ainda teremos muitos pela frente. Mas como eu acredito que não se deve economizar amor, eu prometo Duquinha, que assim que chegar o seu momento, eu adotarei outro serzinho e lhe darei todo amor, respeito e cuidade que dediquei à você. Pois sei que você ficará feliz de eu seguir aprendendo a amar como vocês!`
+    },
+     {
+        id: 2,
+        title: "Como eu conheci a programação e como isso se tornou minha meta de trabalho",
+        content: `Em meados de 2022, já um pouco desiludida da vida acadêmica, eu conheci uma escola online de programação que estava oferecendo uma imersão gratuita de uma semana, em Javascript. Procrastinando que tava com a minha tese de doutorado, resolvi fazer pra ver qual era. E daquele momento em diante eu decidi que ia mudar de carreira. Já fazia um tempo que a ideia de ser professora de universidade já não me fazia mais feliz. E aí perceber que eu, apesar de me considerar uma analfabeta digital, conseguia entender o que tava acontecendo, e vendo as coisas funcionarem, me apaixonei pela programação e estou aqui hoje!
+        Comecei com Front-End, estudei muito HTML, CSS, Javascript, comecei a aprender React.js, enfim... Mas eu ainda fazia doutorado e não conseguia me dedicar 100% aos estudos na área. Em 2023, quando encerrei o doutorado com a defesa em setembro, arrumei minhas malas e me mudei pra São Paulo. Ali, eu comecei a correr atrás da oportunidade de entrar no mercado de trabalho, e de repente eu estava fazendo o processo seletivo da Escola 42 São Paulo. Passei e comecei a estudar a linguagem C. Ali eu vi que, apesar de gostar muito de Front-End, o Back-End tinha meu coração. Ingressei em uma faculdade EAD para aumentar minhas chances de ingressar no mercado, e em setembro de 2025 veio a minha primeira oportunidade! 
+        Foi um caminho árduo e desafiador, pensei muitas vezes que não era pra mim e quase desisti. Mas eu percebi que é disso que eu gosto realmente, e segui em frente!`
+    },
+     {
+        id: 3,
+        title: "Reflexões sobre a vida",
+        content: `Como uma mulher adulta, de quase 40 anos, chega um momento da vida que a gente começa a refletir sobre nossos caminhos traçados, erros, acertos, consequências, escolhas...
+        Hoje eu consigo ver com clareza que cada escolha que fazemos durante a vida, é o que é possível naquele momento. Não vivemos de "ses", vivemos de hoje! "Ah e se eu tivesse feito uma escolha diferente com 18 anos?" Jamais saberemos, e cada escolha feita, nos tornou o que somos hoje. Não podemos mudar o passado, mas podemos mudar o futuro. Dedicação, verdade, esforço, honestidade e pessoas boas com quem contar, sempre nos levarão além.
+        Cada célula do meu corpo hoje reconhece a Maíra, eu aprendi a me conhecer, me cuidar e me amar do jeito que sou, e perdoar os erros da Maíra do passado. O que a gente tem nas mãos é daqui pra frente. Eu não sei como seria a Maíra de hoje, se lá em 2006 ela tivesse resolvido fazer outra graduação que não Biologia. Que não tivesse desistido da Biologia para fazer História, e de repente era Mestra, e depois Doutora... Mas eu sei como é a Maíra de hoje: resiliente, forte, doce porém decidida, que sabe se impor com respeito, e não na base do medo, ou do ódio. Uma mulher inteligente, corajosa, dona de si e com um bom arcabouço de argumentos históricos hahahha! E daqui pra frente, além de tudo isso, ainda vai ser programadora! Vai crescer na carreira, vai conquistar a tão sonhada estabilidade financeira, e vai dar uma velhice tranquila para a mãe que guerreou com o mundo para que eu e meu irmão tivéssemos as chances que tivemos. 
+        Agradeço a Maíra do passado por ter se permitido aprender e amar. E celebro a Maíra do futuro que leva esses aprendizados sempre buscando aprender mais.`
+    }
+]
