@@ -6,15 +6,15 @@ export default function About() {
       <div className="space-y-6 text-lg leading-relaxed">
         <p>
           Meu nome é{" "}
-          <span className="font-semibold text-blue-700 dark:text-purple-400">
+          <span className="font-semibold text-[#ef4444] dark:text-purple-400">
             Maíra Kaminski
           </span>
           , tenho 36 anos, sou de Guarapuava, interior do Paraná. Filha da{" "}
-          <span className="font-semibold text-blue-700 dark:text-purple-400">
+          <span className="font-semibold text-[#ef4444] dark:text-purple-400">
             dona Sonia
           </span>
           , neta da{" "}
-          <span className="font-semibold text-blue-700 dark:text-purple-400">
+          <span className="font-semibold text-[#ef4444] dark:text-purple-400">
             dona Adalgisa
           </span>
           , cresci cercada de mulheres fortes, que sempre arregaçaram as mangas
@@ -36,7 +36,7 @@ export default function About() {
 
         <p>
           Sou uma pessoa{" "}
-          <span className="italic font-medium text-blue-700 dark:text-purple-400">
+          <span className="italic font-medium text-[#ef4444] dark:text-purple-400">
             curiosa, criativa, cheia de energia e com uma verdadeira paixão pelo
             conhecimento
           </span>
@@ -49,7 +49,7 @@ export default function About() {
           pesquisa, de autodidatismo e de resolução de problemas que são
           essenciais para a área de tecnologia. A experiência como professora me
           proporcionou aperfeiçoar as minhas softskills, como a{" "}
-          <span className="font-semibold text-blue-700 dark:text-purple-400">
+          <span className="font-semibold text-[#ef4444] dark:text-purple-400">
             escuta atenta, a capacidade de transmitir conhecimentos e ideias de
             forma clara e acessível, além de facilitar as relações interpessoais
           </span>
@@ -61,7 +61,7 @@ export default function About() {
           Além disso, durante a minha vida eu sempre tive paixões paralelas,
           como a costura e o tricô, que me acompanham desde a infância,
           habilidades aprendidas com a minha avó, dona Gisa{" "}
-          <span className="italic text-blue-700 dark:text-purple-400">
+          <span className="italic text-[#ef4444] dark:text-purple-400">
             (In memorian)
           </span>
           . Mais recentemente, me apaixonei pelo desenho e pelo violão, dois
@@ -72,7 +72,7 @@ export default function About() {
         <p>
           Quando iniciei os estudos em programação, percebi que essas
           características sempre muito fortes em mim —{" "}
-          <span className="font-semibold text-blue-700 dark:text-purple-400">
+          <span className="font-semibold text-[#ef4444] dark:text-purple-400">
             criatividade, faça você mesma, perspicácia, determinação em resolver
             desafios sem desistir
           </span>{" "}

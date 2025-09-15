@@ -26,4 +26,4 @@ export default function PostCard({ post }: { post: post }) {
       </Link>
     </div>
   );
-}0
+}
